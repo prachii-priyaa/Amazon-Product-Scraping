@@ -3,19 +3,21 @@ This project is a web scraper implemented in Python that extracts product inform
 
 ## Dependencies
 To run this project, you need to have the following dependencies installed:
-requests, BeautifulSoup, pandas
+- requests
+- BeautifulSoup
+- pandas
 
 ## Data Description
 The scraped data includes the following fields:
 
-Product URL: The URL of the product on Amazon.
-Product Name: The name or title of the product.
-Product Price: The price of the product.
-Product Rating: The rating of the product, if available.
-Number of Reviews: The number of reviews the product has received.
-Product Description: The description of the product, if available.
-ASIN: The Amazon Standard Identification Number of the product, if available.
-Manufacturer: The manufacturer or brand of the product, if available.
+- Product URL: The URL of the product on Amazon.
+- Product Name: The name or title of the product.
+- Product Price: The price of the product.
+- Product Rating: The rating of the product, if available.
+- Number of Reviews: The number of reviews the product has received.
+- Product Description: The description of the product, if available.
+- ASIN: The Amazon Standard Identification Number of the product, if available.
+- Manufacturer: The manufacturer or brand of the product, if available.
 
 ## Limitations and Future Enhancements
 This code scrapes a limited number of products (up to 200). You can modify the range in the loop to increase the number of products scraped.
